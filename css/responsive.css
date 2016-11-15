@@ -1,0 +1,90 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 768px) and (max-width: 2200px) {
+
+    .project .project-item {
+        width: 30%;
+    }
+
+    .project-img {
+      width: 33%;
+    }
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .single-member img {
+        width: 100%;
+    }
+
+
+    #slideshow div h3 {
+        font-size: 15px;
+    }
+
+    h1 {
+      font-size: 60px;
+    }
+
+    .sub-header {
+      font-size: 12px;
+    }
+
+    .contact-info {
+        margin: 20px 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #connect {
+      padding-top: 0px;
+      padding-bottom: 25px;
+    }
+
+    .project-img {
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    .right-width {
+      width: 100%;
+      padding: 0;
+    }
+
+    .project {
+      width: 85%;
+      margin: 50px auto;
+      padding: 0;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .single-member {
+        margin-left: 15%;
+        width: 65%;
+    }
+
+    .project-item {
+        width: 45%;
+    }
+
+    .project-item img {
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 480px){
+    .left-width{
+        width: 100%;
+
+    }
+    .right-width{
+        width: 100%;
+
+    }
+}
