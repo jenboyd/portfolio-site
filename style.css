@@ -151,7 +151,7 @@ header.header {
     text-transform: uppercase;
     color: #A19796;
     letter-spacing: 2px;
-    font-size: 11px;
+    font-size: 12px;
     border-bottom: 1px solid transparent;
     transition: all .4s;
 
@@ -197,7 +197,7 @@ header.header {
 }
 
 .navbar-toggle .icon-bar {
-    background: #272b2f;
+    background: #A19796;
 }
 
 .navbar-toggle {
@@ -310,12 +310,31 @@ header.header {
 /*project css*/
 
 #project {
-  padding-bottom: 0px;
+  padding: 100px 0;
 }
 
 .project-img {
-  border: .5px solid #E5E5E5;
+  width: 100%;
 }
+
+#project > .container > .project-div {
+  margin: 30px 0;
+  display: block;
+}
+
+.left {
+  float: left;
+  width: 45%;
+  margin-left: 1%;
+}
+
+.right {
+  float: left;
+  width: 49%;
+  margin-right: 5%;
+
+}
+
 
 .project-name, .project-name-1 {
     padding-bottom: 55px;
@@ -338,7 +357,8 @@ header.header {
 
 .project {
     overflow: hidden;
-    margin: 0 120px 100px 100px;
+    margin: 0 120px 50px 50px;
+    /*float: left;*/
 
 }
 
@@ -439,14 +459,24 @@ button.close {
   font-style: italic;
 }
 
+.project-link-btn:hover {
+  color: white;
+  background-color: #333;
+
+}
+
 .project-links:hover {
   color: white;
+
 }
 
 .project-link-btn {
-  background-color: #E0D9D5;
+  background-color: white;
   margin-top: 30px;
-  border: 0;
+  border: 0.5px #BAB6B5 solid;
+  color: #BAB6B5;
+  font-size: 12px;
+  font-weight: 400;
   box-shadow: none;
 }
 
@@ -478,7 +508,7 @@ i {
 
 /*carousel area css*/
 #review {
-    background: url("img/StockSnap_Workspace.jpg") no-repeat fixed center center;
+    background: url("img/StockSnap_Workspace.jpg") no-repeat fixed center right;
     background-size: cover;
     position: relative;
 
@@ -760,14 +790,13 @@ button.btn-send:hover {
 }
 
 .hotline {
-    padding: 12px 0;
+    padding: 14px 0;
     letter-spacing: 1px;
 }
 
 .hotline h5 {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 6px;
-    /*color: white;*/
     font-weight: 300;
 }
 
@@ -814,30 +843,37 @@ button.btn-send:hover {
     z-index: 1;
 }
 
-.tm-social-icon {
-    text-align: left;
-    margin-left: 50px;
-}
-
 .tm-social-icon i {
     text-align: center;
-    height: 30px;
-    width: 30px;
-    border: 1px solid #A2A2A2;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
     border-radius: 50%;
     margin-right: 7px;
-    line-height: 30px;
-    color: #A2A2A2;
+    line-height: 40px;
+    color: white;
     transition: all 0.5s;
+    font-size: 20px;
 }
 
 .tm-social-icon i:hover {
-    color: #FFFFFF;
-    background: #272B2F;
+    color: white;
+    background: #A19796;
 }
 
 .tm-social-icon.float-center {
     text-align: center;
+}
+
+.contact-note {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #333;
+  text-align: center;
+  padding: 20px;
 }
 
 /*#home {
