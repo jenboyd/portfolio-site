@@ -269,7 +269,7 @@ header.header {
 #home {
     position: relative;
     /*background: url("img/home-bg.jpg") no-repeat fixed center center;*/
-    background: linear-gradient(0deg, #4A4A4A, #383838);
+    background-color: #333;
     background-size: cover;
     height: 100%;
     width: 100%;
