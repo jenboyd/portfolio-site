@@ -13,8 +13,15 @@ img {
 }
 
 .icon {
-    max-width: 40%;
-    height: auto;
+  width: 11%;
+  margin: 30px 4%;
+  color: white;
+}
+
+.skills {
+  margin: 40px auto;
+  width: 90%;
+  text-align: center;
 }
 
 h1 {
@@ -58,7 +65,8 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 a:hover {
@@ -279,9 +287,14 @@ header.header {
 
 }
 
+.center {
+  text-align: center;
+  vertical-align: middle;
+}
+
 .table {
     display: table-cell;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 /*
 .home-overlay {
@@ -456,7 +469,7 @@ button.close {
 }
 
 .project-technologies {
-  font-style: italic;
+  color: #BF8F62;
 }
 
 .project-link-btn:hover {
@@ -472,7 +485,7 @@ button.close {
 
 .project-link-btn {
   background-color: white;
-  margin-top: 30px;
+  margin-top: 10px;
   border: 0.5px #BAB6B5 solid;
   color: #BAB6B5;
   font-size: 12px;
@@ -508,20 +521,13 @@ i {
 
 /*carousel area css*/
 #review {
-    background: url("img/StockSnap_Workspace.jpg") no-repeat fixed center right;
-    background-size: cover;
+    /*background: url("img/stripes.jpg") no-repeat fixed center right;*/
+    /*background-size: cover;*/
+    background-color: #DEF2FA;
     position: relative;
+    padding: 70px inherit;
 
 }
-
-/*.carousel-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(256, 256, 256, 0.50);
-}*/
 
 .carousel-1 {
     color: #272b2f;
@@ -590,8 +596,8 @@ i {
 
 .description-text p {
     line-height: 24px;
-    padding-bottom: 20px;
-    font-size: 14px;
+    padding-bottom: 10px;
+    font-size: 16px;
 
 }
 
@@ -875,21 +881,3 @@ footer {
   text-align: center;
   padding: 20px;
 }
-
-/*#home {
-    position: relative;
-    background: url("img/home-bg.jpg") no-repeat fixed center center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    color: #333;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    display: table;
-    z-index: 2;
-    overflow: hidden;
-}
-
-#home ul{
-    list-style: none;
-}*/
