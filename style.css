@@ -83,7 +83,7 @@ section {
     font-weight: 300;
     letter-spacing: 2px;
     padding-bottom: 23px;
-    color: #BF8F62;
+    color: #7A7471;
 }
 
 .heading-text p {
@@ -159,7 +159,7 @@ header.header {
     text-transform: uppercase;
     color: #A19796;
     letter-spacing: 2px;
-    font-size: 12px;
+    font-size: 14px;
     border-bottom: 1px solid transparent;
     transition: all .4s;
 
@@ -296,15 +296,18 @@ header.header {
     display: table-cell;
     vertical-align: middle;
 }
-/*
-.home-overlay {
-    position: absolute;
+
+.notch {
+    position: relative;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(250, 250, 250, .6);
-}*/
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    z-index: 0;
+    display: inline;
+
+}
 
 #slideshow {
     position: relative;
@@ -328,6 +331,7 @@ header.header {
 
 .project-img {
   width: 100%;
+  border: .01px #EEE solid;
 }
 
 #project > .container > .project-div {
@@ -337,15 +341,13 @@ header.header {
 
 .left {
   float: left;
-  width: 45%;
-  margin-left: 1%;
+  width: 40%;
 }
 
 .right {
   float: left;
-  width: 49%;
-  margin-right: 5%;
-
+  width: 50%;
+  margin-left: 4%;
 }
 
 
@@ -469,7 +471,7 @@ button.close {
 }
 
 .project-technologies {
-  color: #BF8F62;
+  color: #9E9692;
 }
 
 .project-link-btn:hover {
@@ -523,7 +525,7 @@ i {
 #review {
     /*background: url("img/stripes.jpg") no-repeat fixed center right;*/
     /*background-size: cover;*/
-    background-color: #DEF2FA;
+    background-color: #FFF5EF;
     position: relative;
     padding: 70px inherit;
 
@@ -604,6 +606,7 @@ i {
 .resume-link {
   color: #333;
   font-weight: 300;
+  font-size: 14px;
   border-bottom: 0.5px #333 solid;
 }
 
@@ -789,7 +792,7 @@ button.btn-send:hover {
     background: #272b2f;
 }
 
-/*address css */
+/*address `${this.props.author}'s picture`css */
 #connect .container .margin-auto {
   margin: 0 auto;
 
