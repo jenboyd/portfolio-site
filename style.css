@@ -13,8 +13,15 @@ img {
 }
 
 .icon {
-    max-width: 40%;
-    height: auto;
+  width: 11%;
+  margin: 30px 4%;
+  color: white;
+}
+
+.skills {
+  margin: 40px auto;
+  width: 90%;
+  text-align: center;
 }
 
 h1 {
@@ -58,7 +65,8 @@ a {
 }
 
 p {
-    font-size: 13px;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 a:hover {
@@ -75,7 +83,7 @@ section {
     font-weight: 300;
     letter-spacing: 2px;
     padding-bottom: 23px;
-    color: #BF8F62;
+    color: #7A7471;
 }
 
 .heading-text p {
@@ -151,7 +159,7 @@ header.header {
     text-transform: uppercase;
     color: #A19796;
     letter-spacing: 2px;
-    font-size: 12px;
+    font-size: 14px;
     border-bottom: 1px solid transparent;
     transition: all .4s;
 
@@ -279,19 +287,27 @@ header.header {
 
 }
 
+.center {
+  text-align: center;
+  vertical-align: middle;
+}
+
 .table {
     display: table-cell;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
-/*
-.home-overlay {
-    position: absolute;
+
+.notch {
+    position: relative;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(250, 250, 250, .6);
-}*/
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    z-index: 0;
+    display: inline;
+
+}
 
 #slideshow {
     position: relative;
@@ -315,6 +331,7 @@ header.header {
 
 .project-img {
   width: 100%;
+  border: .01px #EEE solid;
 }
 
 #project > .container > .project-div {
@@ -324,15 +341,13 @@ header.header {
 
 .left {
   float: left;
-  width: 45%;
-  margin-left: 1%;
+  width: 40%;
 }
 
 .right {
   float: left;
-  width: 49%;
-  margin-right: 5%;
-
+  width: 50%;
+  margin-left: 4%;
 }
 
 
@@ -456,7 +471,7 @@ button.close {
 }
 
 .project-technologies {
-  font-style: italic;
+  color: #9E9692;
 }
 
 .project-link-btn:hover {
@@ -472,7 +487,7 @@ button.close {
 
 .project-link-btn {
   background-color: white;
-  margin-top: 30px;
+  margin-top: 10px;
   border: 0.5px #BAB6B5 solid;
   color: #BAB6B5;
   font-size: 12px;
@@ -508,20 +523,13 @@ i {
 
 /*carousel area css*/
 #review {
-    background: url("img/StockSnap_Workspace.jpg") no-repeat fixed center right;
-    background-size: cover;
+    /*background: url("img/stripes.jpg") no-repeat fixed center right;*/
+    /*background-size: cover;*/
+    background-color: #FFF5EF;
     position: relative;
+    padding: 70px inherit;
 
 }
-
-/*.carousel-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(256, 256, 256, 0.50);
-}*/
 
 .carousel-1 {
     color: #272b2f;
@@ -590,14 +598,15 @@ i {
 
 .description-text p {
     line-height: 24px;
-    padding-bottom: 20px;
-    font-size: 14px;
+    padding-bottom: 10px;
+    font-size: 16px;
 
 }
 
 .resume-link {
   color: #333;
   font-weight: 300;
+  font-size: 14px;
   border-bottom: 0.5px #333 solid;
 }
 
@@ -783,7 +792,7 @@ button.btn-send:hover {
     background: #272b2f;
 }
 
-/*address css */
+/*address `${this.props.author}'s picture`css */
 #connect .container .margin-auto {
   margin: 0 auto;
 
@@ -875,21 +884,3 @@ footer {
   text-align: center;
   padding: 20px;
 }
-
-/*#home {
-    position: relative;
-    background: url("img/home-bg.jpg") no-repeat fixed center center;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    color: #333;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    display: table;
-    z-index: 2;
-    overflow: hidden;
-}
-
-#home ul{
-    list-style: none;
-}*/
